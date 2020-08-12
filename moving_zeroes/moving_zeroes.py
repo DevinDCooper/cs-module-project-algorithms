@@ -13,6 +13,7 @@ def moving_zeroes(arr):
     while count < len(arr):
         arr[count] = 0
         count += 1
+
     return arr
 
 if __name__ == '__main__':
